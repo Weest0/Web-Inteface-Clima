@@ -1,5 +1,5 @@
-const apiKey = '6840a8e913b248eca8d13a43dd6bbd54';
-const city = 'Jequitinhonha';
+const apiKey = 'SUA API KEY AQUI';
+const city = 'NOME DA SUA CIDADE AQUI';
 const apiUrl = `https://api.weatherbit.io/v2.0/current?city=${city}&key=${apiKey}`;
 
 var body = document.getElementById('corpo');
