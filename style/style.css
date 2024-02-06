@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    #corpo{
+        font-family: 'Poppins', sans-serif;
+    }
+    .informacoes-principais{
+        font-size: 25px;
+        color: white;
+    }
+    .temperatura{
+        margin-top: 10px;
+        font-size: 60px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    .temperatura img{
+        width: 60px;
+        height: 60px;
+    }
+    .principal{
+        padding: 0;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: start;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .horario{
+        font-size: 115px;
+        color: white;
+    }
+    .descricao{
+        font-size: 25px;
+        color: white;
+    }
+}
